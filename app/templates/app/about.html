@@ -1,0 +1,47 @@
+{% extends 'app/base.html'%}
+{% load static %}
+{% block title %}About{% endblock title %}
+
+{% block banner-slider %}
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{% static 'app/images/banner/8.jpeg'%}" class="d-block w-100" alt="banner image" height="700">
+        </div>
+    </div>
+</div>
+{% endblock banner-slider %}
+
+{% block main-content %}
+<div class="container mt-3">
+    <br>
+    <h2 class="text-center">About Us</h2>
+    <br>
+    <div class="row container">
+        <p class="fs-4 text-center">This is a Dress Embroidery Public limited company having
+            its registered and corporate office at Kochi at Kerala in India.
+            The company was incorporated in the year 2021 and production commenced
+            in 2022. This is the fastest growing public listed Companies in Kochi
+            Now re-branded as Embroidery Legacy to honor our roots, we offer thousands of
+            embroidery designs, embroidery software, online education, tools, live events and more.
+            Drawing from our past, we strive to provide embroiderers from all walks of life with the
+            best embroidery products & education available. Our goal is to help further the beautiful
+            art of machine embroidery by coaching embroiderers around the world.
+            It’s no mystery… quality embroidery is our history.</p>
+    </div>
+    <br><br>
+    <h2 class="text-center">Mission</h2>
+    <br>
+    <div class="row container">
+        <p class="fs-4 text-center"> Our Mission to Legacy moved away from the commercial embroidery market and
+            redirected its focus towards home embroiderers with the name Hoc Adorable Ideas.
+            For roughly a decade Adorable Ideas crafted a database of close to 30,000 quality
+            embroidery designs, numerous educational series and ran thousands of live embroidery
+            events across the world.
+
+        </p>
+
+    </div>
+</div>
+<br><br>
+{% endblock main-content %}
